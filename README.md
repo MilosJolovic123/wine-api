@@ -55,13 +55,6 @@ wine-api/
 
 > Tests are not yet implemented. Adding unit and integration tests is planned for future versions.
 
-## 📌 TODO
-
-* [ ] Implement CRUD operations for the wine entity
-* [ ] Add authentication and authorization
-* [ ] Connect to a database (e.g., PostgreSQL)
-* [ ] Write unit and integration tests
-
 ## 📄 License
 
 MIT
