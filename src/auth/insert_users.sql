@@ -1,0 +1,6 @@
+INSERT INTO zaposleni (imePrezime, mejl, password, brojTelefona,rolaIDRole) VALUES ('Marko Markovic','marko.markovic@vinarija.rs', '$2b$10$VoTXSZrTBFzJbk4jzPU/F.ggm0CWwBZtUqsr7J1.lmUNquth7dHK.', '+381641234567',1);
+INSERT INTO zaposleni (imePrezime, mejl, password, brojTelefona,rolaIDRole) VALUES ('Petar Petrovic','petar.petrovic@vinarija.rs', '$2b$10$ONXv1KdyW795I1t.5o9leeZK./oEwi0eYapc6hJaA/Dp2BwUBv2dG', '+381641234568',1);
+INSERT INTO sef_proizvodnje (imePrezime, mejl, password, brojTelefona,rolaIDRole) VALUES ('Pavle Pavlovic','pavle.pavlovic@vinarija.rs', '$2b$10$L4SSbeCJIFWW3FMBROs6NO1LGEIl4dUjjG5HXuCloB9a/q2AnBc7O', '+381641234569',2);
+INSERT INTO racunovodja_vinarije (imePrezime, mejl, password, brojTelefona,rolaIDRole) VALUES ('Marija Marijanovic','marija.marijanovic@vinarija.rs,', '$2b$10$jNr.2ie4PY1GzUEuodtFmuHVu24wiI7.fMXLP0tdRCQluZSjn6x7G', '+381641234570',4);
+INSERT INTO enolog (imePrezime, mejl, password, brojTelefona,rolaIDRole) VALUES ('Mihajlo Mihajlovic','mihajlo.mihajlovic@vinarija.rs', '$2b$10$OnlzPrt2e2MhEAHc0dqGzOyDtajdZkLAKUpb8QyLTEjzm.WLpDGaK', '+381641234571',3);
+INSERT INTO zaposleni (imePrezime, mejl, password, brojTelefona,rolaIDRole) VALUES ('Mina Minic','mina.minic@vinarija.rs', '$2b$10$smAcdnHds3AsV3JjzqNqTOw4.l9e4Uan434s2wLhvtw2WhZpDUUbO', '+381641234523',1);
