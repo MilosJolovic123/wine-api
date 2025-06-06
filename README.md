@@ -1,67 +1,67 @@
-<p align="center">
-  <a href="http://nestjs.com/" target="blank"><img src="https://nestjs.com/img/logo-small.svg" width="200" alt="Nest Logo" /></a>
-</p>
+# 🍷 Wine API
 
-<p align="center">A progressive <a href="http://nodejs.org" target="_blank">Node.js</a> framework for building efficient and scalable server-side applications.</p>
-<p align="center">
-  <a href="https://www.npmjs.com/~nestjscore" target="_blank"><img src="https://img.shields.io/npm/v/@nestjs/core.svg" alt="NPM Version" /></a>
-  <a href="https://www.npmjs.com/~nestjscore" target="_blank"><img src="https://img.shields.io/npm/l/@nestjs/core.svg" alt="Package License" /></a>
-  <a href="https://www.npmjs.com/~nestjscore" target="_blank"><img src="https://img.shields.io/npm/dm/@nestjs/common.svg" alt="NPM Downloads" /></a>
-  <a href="https://circleci.com/gh/nestjs/nest" target="_blank"><img src="https://img.shields.io/circleci/build/github/nestjs/nest/master" alt="CircleCI" /></a>
-  <a href="https://coveralls.io/github/nestjs/nest?branch=master" target="_blank"><img src="https://coveralls.io/repos/github/nestjs/nest/badge.svg?branch=master#9" alt="Coverage" /></a>
-  <a href="https://discord.gg/G7Qnnhy" target="_blank"><img src="https://img.shields.io/badge/discord-online-brightgreen.svg" alt="Discord"/></a>
-  <a href="https://opencollective.com/nest#backer" target="_blank"><img src="https://opencollective.com/nest/backers/badge.svg" alt="Backers on Open Collective" /></a>
-  <a href="https://opencollective.com/nest#sponsor" target="_blank"><img src="https://opencollective.com/nest/sponsors/badge.svg" alt="Sponsors on Open Collective" /></a>
-  <a href="https://paypal.me/kamilmysliwiec" target="_blank"><img src="https://img.shields.io/badge/Donate-PayPal-ff3f59.svg"/></a>
-  <a href="https://opencollective.com/nest#sponsor"  target="_blank"><img src="https://img.shields.io/badge/Support%20us-Open%20Collective-41B883.svg" alt="Support us"></a>
-  <a href="https://twitter.com/nestframework" target="_blank"><img src="https://img.shields.io/twitter/follow/nestframework.svg?style=social&label=Follow"></a>
-</p>
+API for managing wine data, built using the [NestJS](https://nestjs.com/) framework.
 
-## Description
+## 🚀 Technologies
 
-Wine API project built with [NestJS](https://nestjs.com/) and TypeScript.
+* [NestJS](https://nestjs.com/) – a progressive Node.js framework for building efficient and scalable server-side applications
+* [TypeScript](https://www.typescriptlang.org/) – a statically typed superset of JavaScript
+* [ESLint](https://eslint.org/) & [Prettier](https://prettier.io/) – code analysis and formatting tools
 
-## Installation
+## 📁 Project Structure
 
-```bash
-$ npm install
+```
+wine-api/
+├── src/                 # Main source code of the application
+├── test/                # Tests
+├── .eslintrc.js         # ESLint configuration
+├── .prettierrc          # Prettier configuration
+├── nest-cli.json        # Nest CLI configuration
+├── package.json         # Dependencies and scripts
+├── tsconfig.json        # TypeScript configuration
+├── tsconfig.build.json  # TypeScript config for build
+└── README.md            # This file
 ```
 
-## Running the app
+## 🛠️ Installation
 
-```bash
-# development
-$ npm run start
+1. Clone the repository:
 
-# watch mode
-$ npm run start:dev
+   ```bash
+   git clone https://github.com/MilosJolovic123/wine-api.git
+   cd wine-api
+   ```
 
-# production mode
-$ npm run start:prod
-```
+2. Install dependencies:
 
-## Test
+   ```bash
+   npm install
+   ```
 
-```bash
-# unit tests
-$ npm run test
+3. Run the development server:
 
-# e2e tests
-$ npm run test:e2e
+   ```bash
+   npm run start:dev
+   ```
 
-# test coverage
-$ npm run test:cov
-```
+## ✅ Scripts
 
-## Support
+* `npm run start:dev` – start the application in development mode
+* `npm run build` – compile the TypeScript code
+* `npm run lint` – run ESLint for code analysis
+* `npm run format` – format code using Prettier
 
-Wine API is an open-source project. Contributions and support are welcome!
+## 🔍 Testing
 
-## Stay in touch
+> Tests are not yet implemented. Adding unit and integration tests is planned for future versions.
 
-* Author - [Miloš Jolović](https://github.com/MilosJolovic123)
-* GitHub - [https://github.com/MilosJolovic123/wine-api](https://github.com/MilosJolovic123/wine-api)
+## 📌 TODO
 
-## License
+* [ ] Implement CRUD operations for the wine entity
+* [ ] Add authentication and authorization
+* [ ] Connect to a database (e.g., PostgreSQL)
+* [ ] Write unit and integration tests
+
+## 📄 License
 
 MIT
